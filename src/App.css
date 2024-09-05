@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+  #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* Ensure the marker is styled correctly */
+li::marker {
+  content: ''; /* or any other marker you prefer */
+  font-size: 1em; /* Adjust size if necessary */
+  color: rgba(255, 255, 255, 0.87); /* Match your text color */
+}
+
+li.form {
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #cadcf2;
+  width: 300px;
+}
+
+.screenshot {
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.gallery-screenshot {
+  border-radius: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  position: relative;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+/* Ensure h2 and other elements are styled correctly */
+h2 {
+  margin: 0; /* Remove default margin if necessary */
+  padding: 0; /* Remove default padding if necessary */
+}
+
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: red;
+}
